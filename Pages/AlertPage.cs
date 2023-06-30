@@ -8,6 +8,7 @@ namespace DemoQa.Pages
         public AlertPage(IWebDriver driver)
         {
             this.Driver = driver;
+
         }
 
         private IWebElement AlertT => Driver.FindElement(By.XPath("//span[contains(text(),'Alerts')]"));
